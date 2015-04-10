@@ -26,6 +26,7 @@
 
 /* End Fonts */
 
+/* Box Model Override */
 html {
     box-sizing: border-box;
     font-family: amble, calibri, trebuchet ms, sans-serif;
@@ -34,9 +35,11 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+/* End Box Model Override */
 
+/* Header */
 header {
-    width: 95%;
+    width: 100%;
     margin: auto;
 }
 
@@ -47,6 +50,29 @@ header {
 nav h1 {
     display: none;
 }
+
+.menu {
+    z-index: 100;
+    width: 100%;
+    background-color: #422360;
+    overflow: hidden;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: amble_bold, calibri, trebuchet ms, sans-serif;
+    padding: 2%;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: #b42179;
+}
+
+/* End Header */
 
 /* Tab style */
 #scrollUp {
