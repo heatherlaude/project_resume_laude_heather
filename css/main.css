@@ -1,4 +1,4 @@
-/* Fonts */
+/* Fonts ---------------- */
 
 @font-face {
     font-family: 'amble';
@@ -24,9 +24,9 @@
     src:url('../fonts/Amble-Light.ttf') format('truetype'), url('../fonts/Amble-Light.woff') format('woff');
 }
 
-/* End Fonts */
+/* End Fonts ---------------- */
 
-/* Box Model Override */
+/* Box Model Override ---------------- */
 html {
     box-sizing: border-box;
     font-family: amble, calibri, trebuchet ms, sans-serif;
@@ -35,9 +35,9 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-/* End Box Model Override */
+/* End Box Model Override  ---------------- */
 
-/* Header */
+/* Header ---------------- */
 header {
     width: 100%;
     margin: auto;
@@ -83,9 +83,9 @@ nav h1 {
     -o-transition: background-color 0.75s;
 }
 
-/* End Header */
+/* End Header ---------------- */
 
-/* Body Content */
+/* Body Content ---------------- */
 
 h1 {
     text-transform: uppercase;
@@ -185,7 +185,7 @@ ul {
     background-size: contain;
 }
 
-    /* Social Icons */
+    /* Social Icons ---------------- */
 
     .social_icons {
         background-color: #422360;
@@ -233,11 +233,11 @@ ul {
     #pinterest {
         background-image: url(../img/pinterest.png);
     }
-    /* End Social Icons */
+    /* End Social Icons ---------------- */
 
-/* End Body Content */
+/* End Body Content ---------------- */
 
-/* Tab style */
+/* Tab style ---------------- */
 #scrollUp {
     bottom: 0;
     right: 30px;
@@ -270,9 +270,9 @@ ul {
     margin-bottom: 0;
 }
 
-/* End Tab Style */
+/* End Tab Style ---------------- */
 
-/*Break Point 410px */
+/*Break Point 410px ---------------- */
 
 @media (min-width: 410px) {
 
@@ -294,7 +294,7 @@ ul {
     }
 }
 
-/*Break Point 570px */
+/*Break Point 570px ---------------- */
 
 @media (min-width: 570px) {
 
@@ -318,7 +318,7 @@ ul {
 
 }
 
-/*Break Point 770px */
+/*Break Point 770px ---------------- */
 
 @media (min-width: 770px) {
 
