@@ -1,5 +1,5 @@
 //SMINT
 
 $(document).ready( function() {
-	$('.subMenu').smint();
+	$('.menu').smint();
 });
