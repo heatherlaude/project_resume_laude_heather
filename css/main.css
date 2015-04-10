@@ -84,6 +84,17 @@ nav h1 {
 
 /* End Header */
 
+/* Body Content */
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #b42179;
+    text-shadow: -1px 0px 2px #B4A7C0;
+}
+
+/* End Body Content */
+
 /* Tab style */
 #scrollUp {
     bottom: 0;
