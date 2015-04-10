@@ -42,7 +42,6 @@ header {
     width: 100%;
     margin: auto;
     background-image: url(../img/pinkchevron.png);
-    padding-bottom: 2%;
 }
 
 #logo img, #photo img {
@@ -52,7 +51,7 @@ header {
 }
 
 #description {
-    padding: 0 7% 0 7%;
+    padding: 0 7% 2% 7%;
     text-align: justify;
     text-justify: inter-word;
 }
