@@ -306,6 +306,11 @@ ul {
         max-width: 570px;
         margin: auto;
     }
+    
+    #photo {
+        float: left;
+        margin-top: -11px;
+    }
 
 }
 
