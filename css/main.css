@@ -115,6 +115,7 @@ ul {
     background-image: url(../img/education_icon_web.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 
 .work {
@@ -125,6 +126,7 @@ ul {
     background-image: url(../img/work_icon.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 
 .skills {
@@ -135,6 +137,7 @@ ul {
     background-image: url(../img/skills_icon_web.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 
 .achievements {
@@ -145,6 +148,7 @@ ul {
     background-image: url(../img/achievements_icon_web.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 
 .get_in_touch {
@@ -163,6 +167,7 @@ ul {
     background-image: url(../img/contact_icon_web.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     height: 200px;
 }
 
