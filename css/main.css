@@ -145,6 +145,19 @@ ul {
     color: white;
 }
 
+.get_in_touch p a {
+    color: white;
+    text-decoration: none;
+}
+
+.get_in_touch p a:hover {
+    color: pink;
+    -webkit-transition: color 0.75s;
+    -moz-transition: color 0.75s;
+    -o-transition: color 0.75s;
+    text-decoration: none;
+}
+
 .get_in_touch section {
     background-image: url(../img/contact_icon_web.png);
     height: 200px;
@@ -155,6 +168,54 @@ ul {
     background-position: center;
     background-size: contain;
 }
+
+.social_icons {
+    background-color: #422360;
+    width: 13%;
+    padding-top: 7%;
+    margin-left: 3%;
+    float: left;
+    border-radius: 7px;
+}
+
+.social_icons:hover {
+    background-color: #B42179;
+    -webkit-transition: background-color 0.75s;
+    -moz-transition: background-color 0.75s;
+    -o-transition: background-color 0.75s;
+}
+
+#facebook, #linkedin, #pinterest, #youtube, #instagram, #twitter {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#facebook {
+    background-image: url(../img/facebook.png);
+    margin-left: 0;
+}
+
+#instagram {
+    background-image: url(../img/instagram.png);
+}
+
+#linkedin {
+    background-image: url(../img/linkedin.png);
+}
+
+#twitter {
+    background-image: url(../img/twitter.png);
+}
+
+#youtube {
+    background-image: url(../img/youtube.png);
+}
+
+#pinterest {
+    background-image: url(../img/pinterest.png);
+}
+
 
 /* End Body Content */
 
