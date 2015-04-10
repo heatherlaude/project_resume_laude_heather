@@ -1,5 +1,9 @@
 //SMINT
 
 $(document).ready( function() {
-	$('.menu').smint();
+    $('.menu').smint();
+
+//Scroll Up
+
+    $.scrollUp();
 });
