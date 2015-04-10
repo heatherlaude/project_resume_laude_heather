@@ -1,5 +1,34 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'amble';
+    src: url('../fonts/Amble-Regular.eot');
+    src:url('../fonts/Amble-Regular.ttf') format('truetype'), url('../fonts/Amble-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'amble_bold';
+    src: url('../fonts/Amble-Bold.eot');
+    src:url('../fonts/Amble-Bold.ttf') format('truetype'), url('../fonts/Amble-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'amble_italic';
+    src: url('../fonts/Amble-Italic.eot');
+    src:url('../fonts/Amble-Italic.ttf') format('truetype'), url('../fonts/Amble-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'amble_light';
+    src: url('../fonts/Amble-Light.eot');
+    src:url('../fonts/Amble-Light.ttf') format('truetype'), url('../fonts/Amble-Light.woff') format('woff');
+}
+
+/* End Fonts */
+
 html {
     box-sizing: border-box;
+    font-family: amble, calibri, trebuchet ms, sans-serif;
 }
 
 *, *:before, *:after {
