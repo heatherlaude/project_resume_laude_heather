@@ -92,6 +92,26 @@ h1 {
     text-shadow: -1px 0px 2px #B4A7C0;
 }
 
+.education, .work, .skills, .achievements, .get_in_touch {
+    padding: 7%;
+}
+
+.education {
+    background-color: #FCE7EE;
+}
+
+.work {
+    background-color: #F4D1E1;
+}
+
+.skills {
+    background-color: #ECBBD4;
+}
+
+.achievements {
+    background-color: #E4A5C7;
+}
+
 /* End Body Content */
 
 /* Tab style */
