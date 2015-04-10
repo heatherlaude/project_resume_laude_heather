@@ -92,6 +92,17 @@ h1 {
     text-shadow: -1px 0px 2px #B4A7C0;
 }
 
+ul {
+    list-style-image: url(../img/trianglebullet.png);
+}
+
+/* ul li {
+    background-image: url(../img/trianglebullet.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    padding-left: 15px;
+} */
+
 .education, .work, .skills, .achievements, .get_in_touch {
     padding: 7%;
 }
@@ -100,16 +111,59 @@ h1 {
     background-color: #FCE7EE;
 }
 
+.education section {
+    background-image: url(../img/education_icon_web.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .work {
     background-color: #F4D1E1;
+}
+
+.work section {
+    background-image: url(../img/work_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .skills {
     background-color: #ECBBD4;
 }
 
+.skills section {
+    background-image: url(../img/skills_icon_web.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .achievements {
     background-color: #E4A5C7;
+}
+
+.achievements section {
+    background-image: url(../img/achievements_icon_web.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.get_in_touch {
+    background-color: #480f31;
+}
+
+.get_in_touch h1 {
+    color: #ECBBD4;
+}
+
+.get_in_touch p {
+    color: white;
+}
+
+.get_in_touch section {
+    background-image: url(../img/contact_icon_web.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
 }
 
 /* End Body Content */
