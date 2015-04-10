@@ -96,13 +96,6 @@ ul {
     list-style-image: url(../img/trianglebullet.png);
 }
 
-/* ul li {
-    background-image: url(../img/trianglebullet.png);
-    background-repeat: no-repeat;
-    background-position: 0px center;
-    padding-left: 15px;
-} */
-
 .education, .work, .skills, .achievements, .get_in_touch {
     padding: 7%;
 }
@@ -113,9 +106,7 @@ ul {
 
 .education section {
     background-image: url(../img/education_icon_web.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+
 }
 
 .work {
@@ -124,9 +115,6 @@ ul {
 
 .work section {
     background-image: url(../img/work_icon.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
 }
 
 .skills {
@@ -135,9 +123,6 @@ ul {
 
 .skills section {
     background-image: url(../img/skills_icon_web.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
 }
 
 .achievements {
@@ -146,9 +131,6 @@ ul {
 
 .achievements section {
     background-image: url(../img/achievements_icon_web.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
 }
 
 .get_in_touch {
@@ -165,10 +147,13 @@ ul {
 
 .get_in_touch section {
     background-image: url(../img/contact_icon_web.png);
+    height: 200px;
+}
+
+.education section, .work section, .skills section, .achievements section, .get_in_touch section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 200px;
 }
 
 /* End Body Content */
