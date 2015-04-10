@@ -128,6 +128,20 @@ ul {
     background-image: url(../img/skills_icon_web.png);
 }
 
+.skills p a {
+    color: #b42179;
+    text-decoration: none;
+    font-family: amble_bold, calibri, trebuchet ms, sans-serif;
+}
+
+.skills p a:hover {
+    text-decoration: underline;
+    color: #422360;
+    -webkit-transition: color 0.5s;
+    -moz-transition:  color 0.5s;
+    -o-transition:  color 0.5s;
+}
+
 .achievements {
     background-color: #E4A5C7;
 }
