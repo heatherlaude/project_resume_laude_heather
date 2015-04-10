@@ -29,7 +29,7 @@
 /* Box Model Override ---------------- */
 html {
     box-sizing: border-box;
-    font-family: amble, calibri, trebuchet ms, sans-serif;
+    font-family: amble, calibri, 'trebuchet ms', sans-serif;
 }
 
 *, *:before, *:after {
@@ -69,7 +69,7 @@ nav h1 {
 .menu a {
     text-decoration: none;
     color: white;
-    font-family: amble_bold, calibri, trebuchet ms, sans-serif;
+    font-family: amble_bold, calibri, 'trebuchet ms', sans-serif;
     padding: 2%;
     float: left;
     width: 50%;
@@ -130,7 +130,7 @@ ul {
 .skills p a {
     color: #b42179;
     text-decoration: none;
-    font-family: amble_bold, calibri, trebuchet ms, sans-serif;
+    font-family: amble_bold, calibri, 'trebuchet ms', sans-serif;
 }
 
 .skills p a:hover {
