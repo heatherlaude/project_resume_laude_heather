@@ -301,6 +301,11 @@ ul {
     #social {
         max-width: 500px;
     }
+    
+    #top_wrapper {
+        max-width: 570px;
+        margin: auto;
+    }
 
 }
 
