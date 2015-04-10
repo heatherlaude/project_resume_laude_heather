@@ -6,6 +6,19 @@ html {
     box-sizing: inherit;
 }
 
+header {
+    width: 95%;
+    margin: auto;
+}
+
+#logo img, #photo img {
+    width: 100%;
+}
+
+nav h1 {
+    display: none;
+}
+
 /* Tab style */
 #scrollUp {
     bottom: 0;
