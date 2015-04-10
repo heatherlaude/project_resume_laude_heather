@@ -284,6 +284,24 @@ ul {
     #logo {
         max-width: 570px;
     }
+
+    .work section {
+        background-size: 350px;
+    }
 }
 
 /*Break Point 570px */
+
+@media (min-width: 570px) {
+
+    .menu a {
+        width: calc(100%/3);
+    }
+    
+    #social {
+        max-width: 500px;
+    }
+
+}
+
+/*Break Point 770px */
