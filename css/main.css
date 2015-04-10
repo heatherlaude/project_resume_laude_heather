@@ -79,6 +79,9 @@ nav h1 {
 
 .menu a:hover {
     background-color: #b42179;
+    -webkit-transition: background-color 0.75s;
+    -moz-transition: background-color 0.75s;
+    -o-transition: background-color 0.75s;
 }
 
 /* End Header */
