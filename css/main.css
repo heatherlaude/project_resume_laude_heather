@@ -185,53 +185,55 @@ ul {
     background-size: contain;
 }
 
-.social_icons {
-    background-color: #422360;
-    width: 13%;
-    padding-top: 7%;
-    margin-left: 3%;
-    float: left;
-    border-radius: 7px;
-}
+    /* Social Icons */
 
-.social_icons:hover {
-    background-color: #B42179;
-    -webkit-transition: background-color 0.75s;
-    -moz-transition: background-color 0.75s;
-    -o-transition: background-color 0.75s;
-}
+    .social_icons {
+        background-color: #422360;
+        width: 13%;
+        padding-top: 7%;
+        margin-left: 3%;
+        float: left;
+        border-radius: 7px;
+    }
 
-#facebook, #linkedin, #pinterest, #youtube, #instagram, #twitter {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
+    .social_icons:hover {
+        background-color: #B42179;
+        -webkit-transition: background-color 0.75s;
+        -moz-transition: background-color 0.75s;
+        -o-transition: background-color 0.75s;
+    }
 
-#facebook {
-    background-image: url(../img/facebook.png);
-    margin-left: 0;
-}
+    #facebook, #linkedin, #pinterest, #youtube, #instagram, #twitter {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
 
-#instagram {
-    background-image: url(../img/instagram.png);
-}
+    #facebook {
+        background-image: url(../img/facebook.png);
+        margin-left: 0;
+    }
 
-#linkedin {
-    background-image: url(../img/linkedin.png);
-}
+    #instagram {
+        background-image: url(../img/instagram.png);
+    }
 
-#twitter {
-    background-image: url(../img/twitter.png);
-}
+    #linkedin {
+        background-image: url(../img/linkedin.png);
+    }
 
-#youtube {
-    background-image: url(../img/youtube.png);
-}
+    #twitter {
+        background-image: url(../img/twitter.png);
+    }
 
-#pinterest {
-    background-image: url(../img/pinterest.png);
-}
+    #youtube {
+        background-image: url(../img/youtube.png);
+    }
 
+    #pinterest {
+        background-image: url(../img/pinterest.png);
+    }
+    /* End Social Icons */
 
 /* End Body Content */
 
@@ -267,6 +269,8 @@ ul {
 #scrollUp:hover {
     margin-bottom: 0;
 }
+
+/* End Tab Style */
 
 /*Break Point 410px */
 
@@ -315,3 +319,23 @@ ul {
 }
 
 /*Break Point 770px */
+
+@media (min-width: 770px) {
+
+    .menu a {
+        width: calc(100%/6);
+    }
+
+    .achievements section, .skills section, .work section, .education section {
+        background-size: 320px;
+    }
+
+    .achievements section, .skills section {
+        height: 310px;
+        background-position: 50% -20%;
+    }
+    
+    .get_in_touch section {
+        background-size: 350px;
+    }
+}
